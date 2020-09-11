@@ -1,0 +1,132 @@
+.site-main .site-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart-add{
+    flex: 1 0 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 1em 0 5em 1em; */
+    padding-bottom: 5em;
+    display: none;
+}
+
+.cart-add .item{
+    flex: 1 0 69%;
+    background-color: rgba(151, 214, 214, 0.308);
+    padding: 1em;
+    margin-right: 1em;
+    border-radius: 0.3em;
+}
+
+.cart-add .purchase{
+    flex: 1 0 29%;
+}
+
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 1em;
+    display: none;
+}
+
+.product-media{
+    flex: 0 0 40%;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.3); 
+    background-color: white;
+}
+
+.product-media::before{
+    display: block;
+    content: '';
+    padding-top: 70%;
+}
+
+.product-media img{
+    display: block;
+    width: auto;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: transform 0.3s ease-in;
+}
+
+.product-media:hover img{
+    transform: translate(-50%,-50%) scale(1.2);
+}
+
+.information{
+    flex: 1 0 60%;
+    padding: 1em;
+}
+
+.product h3{
+    text-align: left;
+    padding-bottom: 0.3em;
+}
+
+.information .clear{
+    padding-top: 1em;
+}
+
+.cart-add a{
+    font-weight: 550;
+    border: 1px solid teal;
+    border-radius: 0.3em;
+    padding: 0.2em;
+    transition: background 0.2s ease-in;
+}
+
+.cart-add a:hover{
+    color: white;
+    background-color: teal;
+}
+
+.cart-add p{
+    font-size: 1.1em;
+}
+
+.purchase{
+    padding: 1em;
+    background-color: rgba(21, 139, 139, 0.288);
+    border-radius: 0.3em;
+}
+
+.purchase h3{
+    border-bottom: 1px solid black;
+    margin-bottom: 0.5em;
+}
+
+.purchase p,a,h3{
+    text-align: center;
+}
+
+.purchase .total{
+    border-top: 1px solid black;
+    padding-top: 0.5em;
+    margin-top: 0.5em;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.purchase .button{
+    margin-top: 0.9em;
+}
+
+.purchase a{
+    padding: 0.5em 3em;
+    background-color: teal;
+    color: white;
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+.purchase a:hover{
+    color: teal;
+    background-color: white;
+}

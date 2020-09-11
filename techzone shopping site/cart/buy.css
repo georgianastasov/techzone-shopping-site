@@ -1,0 +1,76 @@
+.site-main .site-wrapper{
+    display: block;
+}
+
+.buy{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shipping-information{
+    flex: 1 0 47%;
+    margin-left: 3em;
+}
+
+.delivery{
+    flex: 1 0 42%;
+    margin-left: 1em;
+}
+
+.field{
+    display: flex ;
+    flex-wrap: wrap;
+    border: 0;
+    color: rgb(0, 99, 99);
+    padding-bottom: 0.8em;
+}
+
+legend{
+    padding: 0 0 0.2em 0;
+    margin-bottom: 0.5em;
+    font-size: 1.2em;
+    border-bottom: 1px solid black;
+}
+
+.container{
+    position: relative;
+}
+
+.container i{
+    position: absolute;
+    top: 0.7em;
+    left: 18.5em;
+}
+
+.container-textarea{
+    position: relative;
+}
+
+.container-textarea i{
+    position: absolute;
+    top: 4em;
+    left: 18em;
+}
+
+textarea{
+    padding: 0.5em;
+}
+
+input{
+    width: 20em;
+    padding: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+.button-submit{
+    padding: 0.3em;
+    margin-top: 0.5em;
+    color: teal;
+    border: 1px solid black;
+}
+
+.button-submit:hover{
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+}

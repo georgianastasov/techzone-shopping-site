@@ -1,0 +1,40 @@
+.site-footer{
+    /* background-color: rgb(231, 231, 231); */
+    background-color: rgba(0, 59, 59, 0.822);
+}
+
+.site-footer:hover .info p{
+    color: black;
+}
+
+.site-footer .site-wrapper{
+    padding: 0.5em 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2em;
+    /* border-top: 1px solid gray; */
+}
+
+.site-footer .site-wrapper p{
+    color: rgb(158, 158, 158);
+    transition: color 0.2s ease-in;
+}
+
+.site-footer .site-wrapper p:first-child{
+    font-size: 1.1em;
+}
+
+.site-footer .social{
+    padding-top: 0;
+}
+
+.site-footer .social a{
+    background: rgba(0, 0, 0, 0.404);
+    color: white;
+}
+
+.site-footer .social a:hover{
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+}

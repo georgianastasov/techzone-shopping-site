@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../../fontawesome-free-5.13.0-web/css/all.css">
+    <link rel="stylesheet" href="../item-site.css">
+    <title>TechZone</title>
+
+    <style>
+        .site-media2{
+            background-image: url('https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60');
+        }
+    </style>
+</head>
+<body>
+    <div class="site">
+
+        <header class="site-header">
+
+            <div class="site-wrapper">
+
+                <h1 class="site-title">
+                    <a href="../../main/index.html">𝕋𝕖𝕔𝕙ℤ𝕠𝕟𝕖</a>
+                </h1>
+
+                <nav class="site-nav">
+                    <ul>
+                        <li class="current-page"><a href="../../main/index.html">Home</a></li>
+                        <li>
+                            <a href="../../main/index.html#products">Products</a>
+                            <ul>
+                                <li>
+                                    <a href="../../products/laptops.html">Laptops</a>
+                                    <a href="../../products/phones.html">Phones</a>
+                                    <a href="../../products/pc.html">Personal computers</a>
+                                    <a href="../../products/consoles.html">Game Consoles</a>
+                                    <a href="../../products/tv.html">Tv and Video</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="../../about/about.html">About</a></li>
+                        <li><a href="../../contact/contact.html">Contact</a></li>
+                        <li><a href="../../cart/cart.html"><i id="cart-icon" class="fas fa-shopping-cart"></i></a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+        </header>
+
+        <section class="site-media2">
+
+            <div class="site-wrapper">
+                <div class="info">   
+                    <h2>Personal Computers</h2>
+                    <p>Chose easy with TechZone</p>
+                </div>
+            </div>
+
+        </section>
+
+        <main class="site-main">
+
+            <div class="site-wrapper">
+
+                <article class="item">
+                    <div class="item-media">
+                        <img src="https://www.ioncomputers.bg/userfiles/productlargeimages/product_66243.jpg" alt="">
+                    </div>
+                    <div class="item-spec">
+                        <h3 class="title">Crinitus Gaming</h3>
+                        <p class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                        <ul class="spec">
+                            <li><strong>Operating System:</strong> Windows 10 Home</li>
+                            <li><strong>Processor:</strong> Intel Core i7-8700K</li>
+                            <li><strong>CPU Speed:</strong> 3.30 GHz</li>
+                            <li><strong>Graphics:</strong> NVIDIA GeForce GTX 1080</li>
+                            <li><strong>Memory:</strong> 16GB DDR4 RAM</li>
+                            <li><strong>Hard Disk:</strong> 2TB HDD</li>
+                        </ul>
+                        <div class="buttons">
+                            <p class="price"><a href="" onclick="addProductToCart(), Add(), popUp()">Add to Cart</a></p>
+                            <p class="price"><a href="../../cart/buy.html">Buy Now 2899$</a></p>
+                        </div>
+                    </div>
+                </article>
+
+                <div id="myModal" class="modul">
+                    <div class="modul-content">
+                        <p class="info">You add this product to your cart.</p>
+                        <div class="buttons">
+                            <p class="buttonn"><a href="../../cart/cart.html">Go to Cart</a></p>
+                            <p class="buttonn"><a href="" onclick="down()">Close</a></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+
+        <footer class="site-footer">
+
+            <div class="site-wrapper">
+
+                <div class="info">
+                    <p>A shop where you don't find the product, but the product finds you.</p>
+                    <p>&copy; 2020 Georgi Anastasov</p>
+                </div>
+                <ul class="social">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+
+        </footer>
+
+    </div>
+    <script src="../../javascript/mainfunctions.js"></script>
+</body>
+</html>

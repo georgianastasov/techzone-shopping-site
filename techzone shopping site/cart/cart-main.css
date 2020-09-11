@@ -1,0 +1,45 @@
+.site-media2{
+    height: 25vh;
+}
+
+.site-main{
+    /* height: 52.6vh; */
+    position: relative;
+}
+
+.site-main .site-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.site-main .content .info, .button, h3{
+    text-align: center;
+}
+
+.site-main .content{
+    position: relative;
+    z-index: 10;
+    padding: 10em 0;
+}
+
+.site-main .content .info{
+    padding-bottom: 1em;
+    font-size: 1.1em;
+}
+
+.site-main .content a{
+    font-weight: bold;
+    font-size: 1.2em;
+    border: 1px solid teal;
+    border-radius: 0.3em;
+    padding: 0.3em;
+    transition: background 0.2s ease-in;
+}
+
+.site-main .content a:hover{
+    color: white;
+    background-color: teal;
+}

@@ -1,0 +1,97 @@
+.site-header{
+    padding-bottom: 0.8em;
+}
+
+.site-header .site-wrapper{
+    padding-bottom: 0.7em;
+}
+
+.site-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    flex: 1 1 30%;
+    width: 20em;
+    height: auto;
+    margin-right: 1em;
+    margin-bottom: 2em;
+    border: 0.1px solid rgb(207, 207, 207);
+    box-shadow: 0 0 0.6em 0 rgba(0, 0, 0, 0.4); 
+}
+
+.card-media{
+    position: relative;
+    overflow: hidden;
+}
+
+.card-media::before{
+    display: block;
+    content: '';
+    padding-top: 70%;
+}
+
+.card-media img{
+    display: block;
+    width: auto;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: transform 0.3s ease-in;
+}
+
+.card-media:hover img{
+    transform: translate(-50%,-50%) scale(1.2);
+}
+
+.site-main .site-wrapper .card .card-media > a .fa-check{
+    color: green;
+}
+
+.site-main .site-wrapper .card .card-media > a .fa-times{
+    color: red;
+    font-size: 1.1em;
+}
+
+.card-media i{
+    position: absolute;
+    right: 0.5em;
+    bottom: 0.5em;
+    z-index: 100;
+}
+
+.card-content{
+    position: relative;
+    padding: 1em;
+    box-shadow: 0 0 0.6em 0 rgba(0, 0, 0, 0.4); 
+}
+
+.card-info li{
+    display: block;
+    list-style: none outside;
+}
+
+.card-price{
+    text-align: end;
+}
+
+.card-price a{
+    font-weight: bold;
+    font-size: 1.2em;
+    border: 1px solid teal;
+    border-radius: 0.3em;
+    padding: 0.3em;
+    transition: background 0.2s ease-in;
+}
+
+.card-price a:hover{
+    color: white;
+    background-color: teal;
+}
+
+.site-main{
+    margin-bottom: 4em;
+}

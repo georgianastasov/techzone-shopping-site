@@ -1,0 +1,13 @@
+.site-header .site-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-title{
+    padding: 0;
+}
+
+.site-nav{
+    font-weight: 600;
+}

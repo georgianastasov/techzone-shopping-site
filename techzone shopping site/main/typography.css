@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+html{
+    font: 16px/1.5 "PT Sans Narrow", Verdana, sans-serif;
+}
+
+body,input,select,option,button{
+    font: inherit;
+}
+
+a{
+    text-decoration: none;
+    color: teal;
+}
+
+h1,h2,h3,h4,h5,h6{
+    line-height: 1.2;
+    padding-bottom: 0.5em;
+}
+
+h1{ font-size: 2.2em; }
+h2{ font-size: 2.0em; }
+h3{ font-size: 1.8em; }
+h4{ font-size: 1.4em; }
+h5{ font-size: 1.2em; }
+h6{ font-size: 1.0em; } 
